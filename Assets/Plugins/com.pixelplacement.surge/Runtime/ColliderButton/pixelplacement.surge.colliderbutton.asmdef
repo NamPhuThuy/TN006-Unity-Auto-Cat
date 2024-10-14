@@ -1,0 +1,16 @@
+{
+    "name": "pixelplacement.surge.colliderbutton",
+    "references": [
+        "pixelplacement.surge.tween",
+        "pixelplacement.surge.chooser"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

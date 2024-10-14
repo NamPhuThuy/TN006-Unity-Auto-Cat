@@ -1,0 +1,16 @@
+{
+    "name": "Pixelplacement.Surge.Utilities",
+    "references": [
+        "GUID:f598cd247c61d4558bac1e0b24ce64f9",
+        "GUID:1d13f5fc670254bdea50d04537ec4da0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

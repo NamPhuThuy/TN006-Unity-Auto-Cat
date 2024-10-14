@@ -1,0 +1,16 @@
+{
+    "name": "pixelplacement.surge.tween",
+    "references": [
+        "GUID:7b6bfa63709a6463f836a85bb70cefd5",
+        "GUID:529e7ea8fc0604378bcf678c32a501f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

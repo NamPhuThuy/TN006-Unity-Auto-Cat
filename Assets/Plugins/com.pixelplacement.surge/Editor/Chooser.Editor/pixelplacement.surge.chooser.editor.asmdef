@@ -1,0 +1,17 @@
+{
+    "name": "pixelplacement.surge.chooser.editor",
+    "references": [
+        "GUID:f35934a82400e49b3a1ce14107034048"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

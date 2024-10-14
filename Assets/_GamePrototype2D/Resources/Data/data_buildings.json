@@ -1,0 +1,94 @@
+{
+  "dataBuildings": 
+  [
+    {
+      "id": "Bu100",
+      "name": "SmallHouse",
+      "capacity": 3,
+      "workLoadlv1": 30,
+      "resourcesRequiredlv1":
+      [
+        {"id": "Re102", "name": "Wood", "value": 25},
+        {"id": "Re103", "name": "Stone", "value": 0},
+        {"id": "Re104", "name": "Iron", "value": 0},
+        {"id": "Re105", "name": "Gold", "value": 0}
+      ],
+      "resourcesRequiredlv2":
+      [
+        {"id": "Re102", "name": "Wood", "value": 30},
+        {"id": "Re103", "name": "Stone", "value": 10},
+        {"id": "Re104", "name": "Iron", "value": 0},
+        {"id": "Re105", "name": "Gold", "value": 0}
+      ],
+      "resourcesRequiredlv3":
+      [
+        {"id": "Re102", "name": "Wood", "value": 30},
+        {"id": "Re103", "name": "Stone", "value": 15},
+        {"id": "Re104", "name": "Iron", "value": 0},
+        {"id": "Re105", "name": "Gold", "value": 5}
+      ]
+        
+    },
+    {
+      "id": "Bu101",
+      "name": "TownHall",
+      "capacity": 5,
+      "workLoadlv1": 50,
+      "resourcesRequiredlv1":
+      [
+        {"id": "Re102", "name": "Wood", "value": 50},
+        {"id": "Re103", "name": "Stone", "value": 25},
+        {"id": "Re104", "name": "Iron", "value": 0},
+        {"id": "Re105", "name": "Gold", "value": 0}
+      ],
+      "resourcesRequiredlv2":
+      [
+        {"id": "Re102", "name": "Wood", "value": 60},
+        {"id": "Re103", "name": "Stone", "value": 35},
+        {"id": "Re104", "name": "Iron", "value": 15},
+        {"id": "Re105", "name": "Gold", "value": 50}
+      ],
+      "resourcesRequiredlv3":
+      [
+        {"id": "Re102", "name": "Wood", "value": 100},
+        {"id": "Re103", "name": "Stone", "value": 55},
+        {"id": "Re104", "name": "Iron", "value": 35},
+        {"id": "Re105", "name": "Gold", "value": 100}
+      ]
+      
+    },
+    {
+      "id": "Bu102",
+      "name": "Farm",
+      "capacity": 0,
+      "workLoadlv1": 40,
+      "resourcesRequiredlv1":
+      [
+        {"id": "Re102", "name": "Wood", "value": 30},
+        {"id": "Re103", "name": "Stone", "value": 15},
+        {"id": "Re104", "name": "Iron", "value": 0},
+        {"id": "Re105", "name": "Gold", "value": 0}
+      ],
+      "resourcesRequiredlv2":
+      [
+        {"id": "Re102", "name": "Wood", "value": 50},
+        {"id": "Re103", "name": "Stone", "value": 25},
+        {"id": "Re104", "name": "Iron", "value": 10},
+        {"id": "Re105", "name": "Gold", "value": 0}
+      ]
+    },
+    {
+      "id": "Bu103",
+      "name": "Barracks",
+      "capacity": 0,
+      "workLoadlv1": 35,
+      "resourcesRequiredlv1":
+      [
+        {"id": "Re102", "name": "Wood", "value": 50},
+        {"id": "Re103", "name": "Stone", "value": 40},
+        {"id": "Re104", "name": "Iron", "value": 0},
+        {"id": "Re105", "name": "Gold", "value": 0}
+      ]
+    }
+  ]
+}

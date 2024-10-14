@@ -1,0 +1,15 @@
+{
+    "name": "pixelplacement.surge.statemachine",
+    "references": [
+        "GUID:77f973324fa5f4fe280d144ffe2e2802"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

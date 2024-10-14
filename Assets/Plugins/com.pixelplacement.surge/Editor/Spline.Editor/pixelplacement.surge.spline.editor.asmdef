@@ -1,0 +1,17 @@
+{
+    "name": "pixelplacement.surge.spline.editor",
+    "references": [
+        "GUID:529e7ea8fc0604378bcf678c32a501f5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

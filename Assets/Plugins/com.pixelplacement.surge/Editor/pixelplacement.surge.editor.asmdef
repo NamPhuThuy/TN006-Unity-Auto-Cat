@@ -1,0 +1,19 @@
+{
+    "name": "pixelplacement.surge.editor",
+    "references": [
+        "pixelplacement.surge.statemachine",
+        "Pixelplacement.Surge.Utilities",
+        "pixelplacement.surge.displayobject"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

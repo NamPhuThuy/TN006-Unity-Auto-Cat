@@ -1,0 +1,14 @@
+{
+    "name": "com.midniteoilsoftware.objectpoolmanager",
+    "rootNamespace": "MidniteOilSoftware.ObjectPoolManager",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

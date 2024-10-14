@@ -1,0 +1,12 @@
+{
+  "dataResources": 
+  [
+    {"id": "Re100", "name": "HumanCount", "value": 0},
+    {"id": "Re101", "name": "Food", "value": 40},
+    {"id": "Re102", "name": "Wood", "value": 100},
+    {"id": "Re103", "name": "Stone", "value": 100},
+    {"id": "Re104", "name": "Iron", "value": 40},
+    {"id": "Re105", "name": "Gold", "value": 0},
+    {"id": "Re106", "name": "Coin", "value": 10}
+  ]
+}
