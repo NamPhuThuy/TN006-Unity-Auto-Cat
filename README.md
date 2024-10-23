@@ -8,6 +8,7 @@ Recommended Tool: GitHub Desktop
 ### Commit Guidelines
 Restrict commit messages to the following types: 
 
+
 | Option | Description |
 |--------| ----------- |
 | Add    | for new features or assets|
