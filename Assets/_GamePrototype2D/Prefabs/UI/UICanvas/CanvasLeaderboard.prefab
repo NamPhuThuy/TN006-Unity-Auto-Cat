@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2726172939259362398, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
       propertyPath: m_Name
-      value: CanvasGame
+      value: CanvasLeaderboard
       objectReference: {fileID: 0}
     - target: {fileID: 3161188163936277019, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
       propertyPath: m_Pivot.x
@@ -95,5 +95,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2726172939259362398, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9141067560367688474}
   m_SourcePrefab: {fileID: 100100000, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+--- !u!114 &1333112878519724755 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7544168006297525174, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+  m_PrefabInstance: {fileID: 8805223148469465445}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6910527427861515579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2726172939259362398, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+  m_PrefabInstance: {fileID: 8805223148469465445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9141067560367688474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6910527427861515579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551516e6f5899524ab757a3dbb4b0642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _closeButton: {fileID: 1333112878519724755}
+  _timeToOpenCanvas: 0

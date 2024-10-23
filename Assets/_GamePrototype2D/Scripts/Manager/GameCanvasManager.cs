@@ -17,6 +17,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [SerializeField] private CanvasGamePause CanvasGamePause;
     [SerializeField] private CanvasSettings CanvasSettings;
     [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
+    [SerializeField] private CanvasShop CanvasShop;
 
     public Dictionary<string, CanvasBase> CanvasList = new Dictionary<string, CanvasBase>();
     
@@ -58,6 +59,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         CanvasList.Add("CanvasGamePause", CanvasGamePause);
         CanvasList.Add("CanvasSettings", CanvasSettings);
         CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
+        CanvasList.Add("CanvasShop", CanvasShop);
         
     }
     
