@@ -10,14 +10,16 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [Header("Canvas Main Menu")] 
     [SerializeField] private CanvasExit CanvasExit;
     [SerializeField] private CanvasCredits CanvasCredits;
+    [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
+    [SerializeField] private CanvasSettings CanvasSettings;
     
     [Header("Canvas In Game")] 
     [SerializeField] private CanvasHUD CanvasHUD;
     [SerializeField] private CanvasGameOver CanvasGameOver;
     [SerializeField] private CanvasGamePause CanvasGamePause;
-    [SerializeField] private CanvasSettings CanvasSettings;
-    [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
-    [SerializeField] private CanvasShop CanvasShop;
+    
+    [Header("SubCanvas")]
+    [SerializeField] private CanvasClickToContinue CanvasClickToContinue;
 
     public Dictionary<string, CanvasBase> CanvasList = new Dictionary<string, CanvasBase>();
     
@@ -59,8 +61,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         CanvasList.Add("CanvasGamePause", CanvasGamePause);
         CanvasList.Add("CanvasSettings", CanvasSettings);
         CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
-        CanvasList.Add("CanvasShop", CanvasShop);
-        
+        CanvasList.Add("CanvasClickToContinue", CanvasClickToContinue);
     }
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -72,14 +73,14 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         switch (sceneName)
         {
             case "MainMenu":
-                /*AudioManager.Instance.StopAll(Audio.Type.Music);
-                AudioManager.Instance.Play(AudioEnum.MainMenu_SplashOfHope);*/
+                // AudioManager.Instance.StopAll(Audio.Type.Music);
+                // AudioManager.Instance.Play(AudioEnum.MainMenu_SplashOfHope);
                 currentScene = CurrentScene.MAIN_MENU;
                 
                 break;
             case "GamePlay":
-                /*AudioManager.Instance.StopAll(Audio.Type.Music);
-                AudioManager.Instance.Play(AudioEnum.GameTheme_WigglyAmbition);*/
+                // AudioManager.Instance.StopAll(Audio.Type.Music);
+                // AudioManager.Instance.Play(AudioEnum.GameTheme_WigglyAmbition);
                 currentScene = CurrentScene.GAME_PLAY;
                 CanvasList["CanvasHUD"].Show();
                 break;
