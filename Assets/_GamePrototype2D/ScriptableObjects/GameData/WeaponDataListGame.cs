@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-[CreateAssetMenu(fileName = "WeaponDataListGame", menuName = "ScriptableObjects/WeaponDataListGame")]
+[CreateAssetMenu(fileName = "WeaponDataListGame", menuName = "ScriptableObjects/GameData/WeaponDataListGame")]
 
 public class WeaponDataListGame : ScriptableObject
 
@@ -16,7 +17,7 @@ public class WeaponData
     public string name;
     public string id;
     public string description;
-    public Rarity rarity;
+    public WeaponRarity weaponRarity;
     public AttackType attackType;
     public List<WeaponStats> weaponStatsList;
 }
@@ -30,12 +31,11 @@ public class WeaponStats
     public Sprite image;
 }
 
-public enum Rarity
+public enum WeaponRarity
 {
     Common,
     Uncommon,
     Rare,
-    Epic,
     Legendary
 }
 

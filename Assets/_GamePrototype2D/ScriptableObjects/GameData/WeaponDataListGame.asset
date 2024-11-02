@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1bf3c89be80ce74e98cf418051e80ed, type: 3}
   m_Name: WeaponDataListGame
   m_EditorClassIdentifier: 
-  WeaponDatas: []
+  WeaponDatas:
+  - name: 
+    id: 
+    description: 
+    rarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
