@@ -12,8 +12,9 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [SerializeField] private CanvasCredits CanvasCredits;
     [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
     [SerializeField] private CanvasSettings CanvasSettings;
-    
+
     [Header("Canvas In Game")] 
+    [SerializeField] private CanvasStartBattle CanvasStartBattle;
     [SerializeField] private CanvasHUD CanvasHUD;
     [SerializeField] private CanvasGameOver CanvasGameOver;
     [SerializeField] private CanvasGamePause CanvasGamePause;
@@ -43,6 +44,19 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         StartCoroutine(AddCanvasToDict());
     }
 
+    public void OpenCanvas(string a)
+    {
+        if (CanvasList.ContainsKey(a))
+        {
+            Instance.CanvasList[a].Show();
+        }
+        else
+        {
+            Debug.LogError("UIError: Canvas not found: " + a);
+        }
+    }
+    
+
     private void HideChildren()
     {
         foreach(Transform child in transform)
@@ -54,14 +68,20 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     IEnumerator AddCanvasToDict()
     {
         yield return Yielders.Get(0.02f);
-        CanvasList.Add("CanvasExit", CanvasExit);
-        CanvasList.Add("CanvasCredits", CanvasCredits);
-        CanvasList.Add("CanvasHUD", CanvasHUD);
-        CanvasList.Add("CanvasGameOver", CanvasGameOver);
-        CanvasList.Add("CanvasGamePause", CanvasGamePause);
-        CanvasList.Add("CanvasSettings", CanvasSettings);
-        CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
-        CanvasList.Add("CanvasClickToContinue", CanvasClickToContinue);
+        //--Canvas Main Menu
+        CanvasList.Add(DefineValue.CANVAS_EXIT, CanvasExit);
+        CanvasList.Add(DefineValue.CANVAS_CREDITS, CanvasCredits);
+        CanvasList.Add(DefineValue.CANVAS_SETTINGS, CanvasSettings);
+        CanvasList.Add(DefineValue.CANVAS_LEADERBOARD, CanvasLeaderboard);
+        
+        //--Canvas InGame
+        CanvasList.Add(DefineValue.CANVAS_HUD, CanvasHUD);
+        CanvasList.Add(DefineValue.CANVAS_GAME_OVER, CanvasGameOver);
+        CanvasList.Add(DefineValue.CANVAS_GAME_PAUSE, CanvasGamePause);
+        CanvasList.Add(DefineValue.CANVAS_START_BATTLE, CanvasStartBattle);
+        
+        //--Sub Canvas
+        CanvasList.Add(DefineValue.CANVAS_CLICK_TO_CONTINUE, CanvasClickToContinue);
     }
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -82,7 +102,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
                 // AudioManager.Instance.StopAll(Audio.Type.Music);
                 // AudioManager.Instance.Play(AudioEnum.GameTheme_WigglyAmbition);
                 currentScene = CurrentScene.GAME_PLAY;
-                CanvasList["CanvasHUD"].Show();
+                
                 break;
         }
     }

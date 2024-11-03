@@ -6,14 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerWeaponDataList.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerWeaponDataList.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerWeaponDataList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerWeaponDataList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/WeaponDataList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/WeaponDataList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/WeaponDataListGame.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/WeaponDataListGame.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/Manager n Controller/GameUIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/Manager n Controller/GameUIManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Buttons/ButtonListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Buttons/ButtonListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +26,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5ed782439084ef1bc2ad85eec89e9fe175a00/2d/7b5feb9f/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Game-Prototype-2D/Assets/_GamePrototype2D/Scripts/Core/Buttons/ButtonClicky.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/GameProgressData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerInfor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Helper/HelperCameraAnchor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Helper/HelperHaptic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Helper/HelperViewport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/Vibration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/UI/Canvas/CanvasStartBattle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -41,25 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;nam/create__garage__scene&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "nam/add__gameplay",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Kryple\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Kryple\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe" />
@@ -109,6 +112,7 @@
       <workItem from="1728881654704" duration="832000" />
       <workItem from="1729676365375" duration="3477000" />
       <workItem from="1730540558923" duration="10172000" />
+      <workItem from="1730602777183" duration="7217000" />
     </task>
     <servers />
   </component>
