@@ -422,6 +422,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7135678150042943972, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7860473136969269920, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
       propertyPath: m_Name
       value: CountingNumber

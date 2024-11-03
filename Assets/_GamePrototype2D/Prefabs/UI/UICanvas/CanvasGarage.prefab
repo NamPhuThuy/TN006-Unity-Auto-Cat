@@ -210,7 +210,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7597033841095200328}
   m_HandleRect: {fileID: 9078481457629507116}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.9999946
   m_Size: 0.98126364
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -910,9 +910,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4412534651536065718}
   m_SourcePrefab: {fileID: 100100000, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
---- !u!114 &4058866889663008880 stripped
+--- !u!114 &3490741497711962082 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7544168006297525174, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6958100866785635364, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
   m_PrefabInstance: {fileID: 5828143055073332166}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39058a4af0aaf1e45993eece79ce5915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _closeButton: {fileID: 4058866889663008880}
+  _closeButton: {fileID: 3490741497711962082}
   _timeToOpenCanvas: 0
   _itemUpgradeTemplate: {fileID: 815854821211215139}
   _content: {fileID: 8388488946214023323}

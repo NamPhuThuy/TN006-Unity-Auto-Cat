@@ -12,6 +12,8 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [SerializeField] private CanvasCredits CanvasCredits;
     [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
     [SerializeField] private CanvasSettings CanvasSettings;
+    [SerializeField] private CanvasShop CanvasShop;
+    [SerializeField] private CanvasGarage CanvasGarage;
 
     [Header("Canvas In Game")] 
     [SerializeField] private CanvasStartBattle CanvasStartBattle;
@@ -73,6 +75,8 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         CanvasList.Add(DefineValue.CANVAS_CREDITS, CanvasCredits);
         CanvasList.Add(DefineValue.CANVAS_SETTINGS, CanvasSettings);
         CanvasList.Add(DefineValue.CANVAS_LEADERBOARD, CanvasLeaderboard);
+        CanvasList.Add(DefineValue.CANVAS_SHOP, CanvasShop);
+        CanvasList.Add(DefineValue.CANVAS_GARAGE, CanvasGarage);
         
         //--Canvas InGame
         CanvasList.Add(DefineValue.CANVAS_HUD, CanvasHUD);

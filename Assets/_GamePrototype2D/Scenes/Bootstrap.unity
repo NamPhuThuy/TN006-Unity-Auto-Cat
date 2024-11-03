@@ -710,16 +710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d7a4691685dcd9418f9089b78f7baec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 1
-  CANVAS_EXIT: CanvasExit
-  CANVAS_CREDITS: CanvasCredits
-  CANVAS_LEADERBOARD: CanvasLeaderboard
-  CANVAS_SETTINGS: CanvasSettings
-  CANVAS_START_BATTLE: CanvasStartBattle
-  CANVAS_HUD: CanvasHUD
-  CANVAS_GAME_OVER: CanvasGameOver
-  CANVAS_GAME_PAUSE: CanvasGamePause
-  CANVAS_CLICK_TO_CONTINUE: CanvasClickToContinue
 --- !u!4 &2032460931
 Transform:
   m_ObjectHideFlags: 0
