@@ -6,18 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/Manager n Controller/GameUIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/Manager n Controller/GameUIManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasGarage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasGarage.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasHUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasHUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasShop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasShop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasStartBattle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasStartBattle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/UI/Current_GUI_pack/UICredits/icon_itch_io.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/UI/Current_GUI_pack/UICredits/icon_itch_io.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/UI/Current_GUI_pack/UIMainMenu/icon_garage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/UI/Current_GUI_pack/UIMainMenu/icon_garage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/UI/Current_GUI_pack/UIMainMenu/icon_inbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/UI/Current_GUI_pack/UIMainMenu/icon_inbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +107,8 @@
       <workItem from="1729676365375" duration="3477000" />
       <workItem from="1730540558923" duration="10172000" />
       <workItem from="1730602777183" duration="7217000" />
+      <workItem from="1730644154994" duration="65000" />
+      <workItem from="1730795409274" duration="631000" />
     </task>
     <servers />
   </component>

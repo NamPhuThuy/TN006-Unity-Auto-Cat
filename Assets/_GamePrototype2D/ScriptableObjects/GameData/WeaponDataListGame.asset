@@ -16,7 +16,155 @@ MonoBehaviour:
   - name: 
     id: 
     description: 
-    rarity: 0
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 0
+      power: 0
+      damage: 0
+      image: {fileID: 0}
+  - name: 
+    id: 
+    description: 
+    weaponRarity: 0
     attackType: 0
     weaponStatsList:
     - attackSpeed: 0
