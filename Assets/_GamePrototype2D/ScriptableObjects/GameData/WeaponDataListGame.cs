@@ -26,7 +26,7 @@ public class WeaponData
 public class WeaponStats
 {
     public float attackSpeed;
-    public float power; // Damage multiplier
+   // public float power; // Damage multiplier
     public int damage;
     public Sprite image;
 }
