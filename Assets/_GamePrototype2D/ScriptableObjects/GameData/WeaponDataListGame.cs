@@ -17,7 +17,7 @@ public class WeaponData
     public string name;
     public string id;
     public string description;
-    public WeaponRarity weaponRarity;
+    public EquipmentRarity weaponRarity;
     public AttackType attackType;
     public List<WeaponStats> weaponStatsList;
 }
@@ -26,12 +26,12 @@ public class WeaponData
 public class WeaponStats
 {
     public float attackSpeed;
-    public float power; // Damage multiplier
+   // public float power; // Damage multiplier
     public int damage;
     public Sprite image;
 }
 
-public enum WeaponRarity
+public enum EquipmentRarity
 {
     Common,
     Uncommon,

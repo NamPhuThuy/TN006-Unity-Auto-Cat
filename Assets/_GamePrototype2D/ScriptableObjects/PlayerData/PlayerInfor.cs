@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerInfor", menuName = "ScriptableObjects/PlayerInfor")]
+[CreateAssetMenu(fileName = "PlayerInfor", menuName = "ScriptableObjects/Player/PlayerInfor")]
 public class PlayerInfor : ScriptableObject
 {
     //-- PERSONAL

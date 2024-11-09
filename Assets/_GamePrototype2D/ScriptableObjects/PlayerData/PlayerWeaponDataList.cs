@@ -2,8 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "WeaponDataListPlayer", menuName = "ScriptableObjects/WeaponDataListPlayer")]
-public class WeaponDataListPlayer : ScriptableObject
+[CreateAssetMenu(fileName = "PlayerWeaponDataList", menuName = "ScriptableObjects/Player/PlayerWeaponDataList")]
+public class PlayerWeaponDataList : ScriptableObject
 {
     public List<WeaponDataPlayer> PlayerWeaponDatas;
 }
