@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "ChestRewardDataList", menuName = "ScriptableObjects/GameData/ChestRewardDataList")]
 public class ChestRewardDataList : ScriptableObject
@@ -19,7 +20,7 @@ public class ChestRewardData
 [Serializable]
 public class RarityRatio
 {
-    public WeaponRarity weaponRarity;
+    [FormerlySerializedAs("weaponRarity")] public EquipmentRarity equipmentRarity;
     public float ratio;
 }
 

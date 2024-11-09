@@ -16,18 +16,7 @@ public class WheelData
 	public string name;
 	public string id;
 	public string description;
-	public WheelRarity wheelRarity;
+	public EquipmentRarity wheelRarity;
 	public int health;
 	public Sprite image;
 }
-
-
-public enum WheelRarity
-{
-	Common,
-	Uncommon,
-	Rare,
-	Legendary
-}
-
-
