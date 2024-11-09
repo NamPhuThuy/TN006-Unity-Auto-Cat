@@ -48,7 +48,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 926beb83acdd75f49a8e8b452cbc71c3
-    m_Address: CanvasGameOver
+    m_Address: Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasGameOver.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -134,6 +134,8 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bf12998d157b9664fb725eba82bf676b
     m_Address: Garage
+  - m_GUID: 9f2ca00917872a24cb27a335b50b6a46
+    m_Address: Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasGameOver 1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -19,6 +19,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [SerializeField] private CanvasStartBattle CanvasStartBattle;
     [SerializeField] private CanvasHUD CanvasHUD;
     [SerializeField] private CanvasGameOver CanvasGameOver;
+    [SerializeField] private CanvasGameOver1 CanvasGameOver1;
     [SerializeField] private CanvasGamePause CanvasGamePause;
     
     [Header("SubCanvas")]
@@ -70,13 +71,15 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     IEnumerator AddCanvasToDict()
     {
         yield return Yielders.Get(0.02f);
-        //--Canvas Main Menu
-        CanvasList.Add(DefineValue.CANVAS_EXIT, CanvasExit);
-        CanvasList.Add(DefineValue.CANVAS_CREDITS, CanvasCredits);
-        CanvasList.Add(DefineValue.CANVAS_SETTINGS, CanvasSettings);
-        CanvasList.Add(DefineValue.CANVAS_LEADERBOARD, CanvasLeaderboard);
-        CanvasList.Add(DefineValue.CANVAS_SHOP, CanvasShop);
-        CanvasList.Add(DefineValue.CANVAS_GARAGE, CanvasGarage);
+        CanvasList.Add("CanvasExit", CanvasExit);
+        CanvasList.Add("CanvasCredits", CanvasCredits);
+        CanvasList.Add("CanvasHUD", CanvasHUD);
+        CanvasList.Add("CanvasGameOver", CanvasGameOver);
+        CanvasList.Add("CanvasGameOver1", CanvasGameOver);
+        CanvasList.Add("CanvasGamePause", CanvasGamePause);
+        CanvasList.Add("CanvasSettings", CanvasSettings);
+        CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
+        CanvasList.Add("CanvasShop", CanvasShop);
         
         //--Canvas InGame
         CanvasList.Add(DefineValue.CANVAS_HUD, CanvasHUD);
