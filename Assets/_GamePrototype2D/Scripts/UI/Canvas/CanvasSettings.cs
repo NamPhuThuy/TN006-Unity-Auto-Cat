@@ -55,10 +55,13 @@ public class CanvasSettings : CanvasBase
 
     public void LoadVolumeValue()
     {
+        // _sfxSlider.value = PlayerPrefs.GetFloat(PP_volumeSFX, 0f);
+        // _musicSlider.value = PlayerPrefs.GetFloat(PP_volumeMusic, 0f);
+        // _masterSlider.value = PlayerPrefs.GetFloat(PP_volumeMaster, 0f);
         
-        /*_sfxSlider.value = AudioManager.Instance.volumeSFX;
-        _musicSlider.value = AudioManager.Instance.volumeMusic;
-        _masterSlider.value = AudioManager.Instance.volumeMaster;*/
+        // _sfxSlider.value = AudioManager.Instance.volumeSFX;
+        // _musicSlider.value = AudioManager.Instance.volumeMusic;
+        // _masterSlider.value = AudioManager.Instance.volumeMaster;
     }
     
     

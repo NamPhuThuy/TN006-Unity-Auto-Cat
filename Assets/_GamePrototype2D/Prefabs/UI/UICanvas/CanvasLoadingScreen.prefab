@@ -8,17 +8,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5858423455916045906}
     m_Modifications:
+    - target: {fileID: 1288356926476909973, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 73f9bf43dd6a607489d7580450e4e107, type: 3}
+    - target: {fileID: 1288356926476909973, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1949155460001591233, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
       propertyPath: m_Name
       value: Slider
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077116145440403900, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f8fa263500facfd4897c51bfe9322bad, type: 3}
+    - target: {fileID: 3968617374321187689, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6645204526616508021, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6962765839922344390, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7590567477923202464, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7590567477923202464, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8572931796716591271, guid: fe53b38082ba6f34da7d6ae486f14694, type: 3}
       propertyPath: m_Pivot.x

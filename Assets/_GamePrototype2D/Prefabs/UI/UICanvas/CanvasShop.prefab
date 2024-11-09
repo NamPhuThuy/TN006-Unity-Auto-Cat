@@ -3359,9 +3359,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4391239701726828340}
   m_SourcePrefab: {fileID: 100100000, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
---- !u!114 &910871970968315005 stripped
+--- !u!114 &326077974116717551 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7544168006297525174, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6958100866785635364, guid: 6abfd188a2d8bab45b08099c3d70cf89, type: 3}
   m_PrefabInstance: {fileID: 7212046342365265867}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -3387,7 +3387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fb3c7d9ac31f9144836318b025aeb7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _closeButton: {fileID: 910871970968315005}
+  _closeButton: {fileID: 326077974116717551}
   _timeToOpenCanvas: 0
   itemLists: []
 --- !u!224 &5749018703542971856 stripped

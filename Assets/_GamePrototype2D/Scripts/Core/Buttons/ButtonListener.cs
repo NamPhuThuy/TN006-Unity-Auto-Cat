@@ -60,13 +60,6 @@ public class ButtonListener : MonoBehaviour
 
     public void OpenCanvas(string a)
     {
-        if (GameCanvasManager.Instance.CanvasList.ContainsKey(a))
-        {
-            GameCanvasManager.Instance.CanvasList[a].Show();
-        }
-        else
-        {
-            Debug.LogError("UIError: Canvas not found: " + a);
-        }
+        GameCanvasManager.Instance.OpenCanvas(a);
     }
 }

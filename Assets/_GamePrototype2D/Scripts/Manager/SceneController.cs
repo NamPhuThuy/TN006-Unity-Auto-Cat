@@ -8,10 +8,23 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Initialization))]
 public class SceneController : Singleton<SceneController>
 {
+    
+    [Header("LoadingBar")] 
+    /// <summary>
+    /// The actually time a new scene need to be loaded
+    /// </summary>
+    [SerializeField] private float _loadingDuration = 0.2f;
+    
+    /// <summary>
+    /// The max value range of loading bar
+    /// </summary>
+    [SerializeField] private float _loadingBarMaxVal = 1f;
+    
     private bool isLoading = false; // indicating if a scene is currently being loaded.
     private bool isLoadingBarRunning = false;
     private AsyncOperation asyncLoad;
@@ -41,7 +54,7 @@ public class SceneController : Singleton<SceneController>
         isLoadingBarRunning = true;
         loadCanvas.SetActive(true);
         
-        Pixelplacement.Tween.Value(0f, 1f, (float value) =>
+        Pixelplacement.Tween.Value(0f, _loadingBarMaxVal, (float value) =>
         {
             progressBar.value = value;
         }, loadTime, 0, Pixelplacement.Tween.EaseLinear, Pixelplacement.Tween.LoopType.None, null, () =>
@@ -68,8 +81,7 @@ public class SceneController : Singleton<SceneController>
 
     private IEnumerator LoadSceneProgress(string sceneName, bool currentIsAddressable = true, bool nextIsAddressable = true)
     {
-        float duration = 1f;
-        DoLoadingBar(duration, () =>{ isLoadingBarRunning = false; });
+        DoLoadingBar(_loadingDuration, () =>{ isLoadingBarRunning = false; });
 
         // var loadController = transform.GetChild(0).GetComponent<LoadingSceneController>();
         
@@ -89,7 +101,7 @@ public class SceneController : Singleton<SceneController>
             yield return unloadCurrentSceneTask;
         }
         
-        yield return new WaitForSeconds(0.05f);
+        yield return Yielders.Get(0.05f);
 
         if (nextIsAddressable)
         {
@@ -112,7 +124,7 @@ public class SceneController : Singleton<SceneController>
         
         while (isLoadingBarRunning)
             yield return null;
-        yield return new WaitForSeconds(0.1f); // wait a bit after the LoadingBar is completed
+        yield return Yielders.Get(0.1f); // wait a bit after the LoadingBar is completed
         // float fadeOutTime = loadController.FadeOut();
         // yield return new WaitForSecondsRealtime(fadeOutTime);
         

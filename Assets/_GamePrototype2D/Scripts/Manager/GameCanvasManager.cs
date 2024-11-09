@@ -10,15 +10,20 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [Header("Canvas Main Menu")] 
     [SerializeField] private CanvasExit CanvasExit;
     [SerializeField] private CanvasCredits CanvasCredits;
-    
+    [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
+    [SerializeField] private CanvasSettings CanvasSettings;
+    [SerializeField] private CanvasShop CanvasShop;
+    [SerializeField] private CanvasGarage CanvasGarage;
+
     [Header("Canvas In Game")] 
+    [SerializeField] private CanvasStartBattle CanvasStartBattle;
     [SerializeField] private CanvasHUD CanvasHUD;
     [SerializeField] private CanvasGameOver CanvasGameOver;
     [SerializeField] private CanvasGameOver1 CanvasGameOver1;
     [SerializeField] private CanvasGamePause CanvasGamePause;
-    [SerializeField] private CanvasSettings CanvasSettings;
-    [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
-    [SerializeField] private CanvasShop CanvasShop;
+    
+    [Header("SubCanvas")]
+    [SerializeField] private CanvasClickToContinue CanvasClickToContinue;
 
     public Dictionary<string, CanvasBase> CanvasList = new Dictionary<string, CanvasBase>();
     
@@ -42,6 +47,19 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         StartCoroutine(AddCanvasToDict());
     }
 
+    public void OpenCanvas(string a)
+    {
+        if (CanvasList.ContainsKey(a))
+        {
+            Instance.CanvasList[a].Show();
+        }
+        else
+        {
+            Debug.LogError("UIError: Canvas not found: " + a);
+        }
+    }
+    
+
     private void HideChildren()
     {
         foreach(Transform child in transform)
@@ -63,6 +81,14 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
         CanvasList.Add("CanvasShop", CanvasShop);
         
+        //--Canvas InGame
+        CanvasList.Add(DefineValue.CANVAS_HUD, CanvasHUD);
+        CanvasList.Add(DefineValue.CANVAS_GAME_OVER, CanvasGameOver);
+        CanvasList.Add(DefineValue.CANVAS_GAME_PAUSE, CanvasGamePause);
+        CanvasList.Add(DefineValue.CANVAS_START_BATTLE, CanvasStartBattle);
+        
+        //--Sub Canvas
+        CanvasList.Add(DefineValue.CANVAS_CLICK_TO_CONTINUE, CanvasClickToContinue);
     }
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -74,16 +100,16 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         switch (sceneName)
         {
             case "MainMenu":
-                /*AudioManager.Instance.StopAll(Audio.Type.Music);
-                AudioManager.Instance.Play(AudioEnum.MainMenu_SplashOfHope);*/
+                // AudioManager.Instance.StopAll(Audio.Type.Music);
+                // AudioManager.Instance.Play(AudioEnum.MainMenu_SplashOfHope);
                 currentScene = CurrentScene.MAIN_MENU;
                 
                 break;
             case "GamePlay":
-                /*AudioManager.Instance.StopAll(Audio.Type.Music);
-                AudioManager.Instance.Play(AudioEnum.GameTheme_WigglyAmbition);*/
+                // AudioManager.Instance.StopAll(Audio.Type.Music);
+                // AudioManager.Instance.Play(AudioEnum.GameTheme_WigglyAmbition);
                 currentScene = CurrentScene.GAME_PLAY;
-                CanvasList["CanvasHUD"].Show();
+                
                 break;
         }
     }

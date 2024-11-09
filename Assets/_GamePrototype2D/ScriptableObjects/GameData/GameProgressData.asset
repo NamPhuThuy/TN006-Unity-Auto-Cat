@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a425178b58701cd40b308e47b64c5219, type: 3}
+  m_Name: GameProgressData
+  m_EditorClassIdentifier: 
+  levelPassed: 0
+  rankMilestones:
+  - rank: 0
+    milestones: 150
+  - rank: 1
+    milestones: 300
+  - rank: 2
+    milestones: 650
+  - rank: 3
+    milestones: 1000
+  - rank: 4
+    milestones: 1500
+  - rank: 5
+    milestones: 2000
