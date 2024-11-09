@@ -14,6 +14,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
     [Header("Canvas In Game")] 
     [SerializeField] private CanvasHUD CanvasHUD;
     [SerializeField] private CanvasGameOver CanvasGameOver;
+    [SerializeField] private CanvasGameOver1 CanvasGameOver1;
     [SerializeField] private CanvasGamePause CanvasGamePause;
     [SerializeField] private CanvasSettings CanvasSettings;
     [SerializeField] private CanvasLeaderboard CanvasLeaderboard;
@@ -56,6 +57,7 @@ public class GameCanvasManager : Singleton<GameCanvasManager>, IMessageHandle
         CanvasList.Add("CanvasCredits", CanvasCredits);
         CanvasList.Add("CanvasHUD", CanvasHUD);
         CanvasList.Add("CanvasGameOver", CanvasGameOver);
+        CanvasList.Add("CanvasGameOver1", CanvasGameOver);
         CanvasList.Add("CanvasGamePause", CanvasGamePause);
         CanvasList.Add("CanvasSettings", CanvasSettings);
         CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
