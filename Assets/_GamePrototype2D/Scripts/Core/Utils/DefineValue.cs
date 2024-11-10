@@ -18,7 +18,8 @@ public class DefineValue : PropertyAttribute
     
     public const string CANVAS_START_BATTLE = "CanvasStartBattle";
     public const string CANVAS_HUD = "CanvasHUD";
-    public const string CANVAS_GAME_OVER = "CanvasGameOver";
+    public const string CANVAS_GAME_WIN = "CanvasGameWin";
+    public const string CANVAS_GAME_LOSE = "CanvasGameLose";
     public const string CANVAS_GAME_PAUSE = "CanvasGamePause";
 
     public const string CANVAS_CLICK_TO_CONTINUE = "CanvasClickToContinue";
