@@ -13,6 +13,7 @@ public class DefineValue : PropertyAttribute
     public const string CANVAS_SETTINGS = "CanvasSettings";
     public const string CANVAS_SHOP = "CanvasShop";
     public const string CANVAS_GARAGE = "CanvasGarage";
+    public const string CANVAS_MAINMENU = "CanvasMainMenu";
     
     
     
@@ -24,5 +25,7 @@ public class DefineValue : PropertyAttribute
     public const string CANVAS_CLICK_TO_CONTINUE = "CanvasClickToContinue";
     
     
+    //GAMEOBJECT NAME
+    public const string STR_NETWORK_MANAGER = "NetworkManager";
 
 }

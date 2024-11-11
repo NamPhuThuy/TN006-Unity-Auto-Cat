@@ -6,7 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/Manager n Controller/GameUIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/Manager n Controller/GameUIManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Buttons/ButtonListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Buttons/ButtonListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/EndState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/EndState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/GameOverState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/GameOverState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player1AttackState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player1AttackState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player2AttackState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player2AttackState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/StartBattleState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/StartBattleState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +44,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Helper/HelperViewport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/Vibration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/ClientNetworkTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/TransferPlayMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/UI/Canvas/CanvasStartBattle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.8.1/Runtime/Core/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -41,7 +64,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;nam/add__gameplay&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,6 +132,7 @@
       <workItem from="1730602777183" duration="7217000" />
       <workItem from="1730644154994" duration="65000" />
       <workItem from="1730795409274" duration="631000" />
+      <workItem from="1731306108289" duration="3775000" />
     </task>
     <servers />
   </component>
