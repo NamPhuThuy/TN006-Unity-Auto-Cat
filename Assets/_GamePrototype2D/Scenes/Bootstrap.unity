@@ -878,10 +878,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1257180107267213925, guid: 5ff723ddf5629c649a67f228ff58ef7d, type: 3}
-      propertyPath: _loadingDuration
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3277935652692715781, guid: 5ff723ddf5629c649a67f228ff58ef7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0314344

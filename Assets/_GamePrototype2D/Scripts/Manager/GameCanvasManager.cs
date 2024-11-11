@@ -112,22 +112,29 @@ public class GameCanvasManager : Pixelplacement.Singleton<GameCanvasManager>, IM
                 currentScene = CurrentScene.GAME_PLAY;
                 
                 //Check user-mode
-                TransferPlayMode m_transfer = GameObject.Find(DefineValue.STR_NETWORK_MANAGER).GetComponent<TransferPlayMode>();
-                
-                NetworkManager m_networkManager = GameObject.Find(DefineValue.STR_NETWORK_MANAGER).GetComponent<NetworkManager>();
-                
-                if (m_transfer.userMode == UserMode.HostMode)
-                {
-                    m_networkManager.StartHost();
-                }
-                else if (m_transfer.userMode == UserMode.ClientMode)
-                {
-                    m_networkManager.StartClient();
-                }
+                StartCoroutine(SpawnVehicle());
                 
                 
                 
                 break;
+        }
+    }
+
+    IEnumerator SpawnVehicle()
+    {
+        yield return Yielders.Get(1.2f);
+        
+        TransferPlayMode m_transfer = GameObject.Find(DefineValue.STR_NETWORK_MANAGER).GetComponent<TransferPlayMode>();
+                
+        NetworkManager m_networkManager = GameObject.Find(DefineValue.STR_NETWORK_MANAGER).GetComponent<NetworkManager>();
+                
+        if (m_transfer.userMode == UserMode.HostMode)
+        {
+            m_networkManager.StartHost();
+        }
+        else if (m_transfer.userMode == UserMode.ClientMode)
+        {
+            m_networkManager.StartClient();
         }
     }
 
