@@ -48,7 +48,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 926beb83acdd75f49a8e8b452cbc71c3
-    m_Address: CanvasGameOver
+    m_Address: Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasGameOver.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -13,161 +13,243 @@ MonoBehaviour:
   m_Name: WeaponDataListGame
   m_EditorClassIdentifier: 
   WeaponDatas:
-  - name: 
-    id: 
-    description: 
+  - name: Mace Blade
+    id: 01
+    description: Unlocked at the beginning of the game
+    weaponRarity: 1
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 2
+      damage: 50
+      image: {fileID: 0}
+    - attackSpeed: 3
+      damage: 55
+      image: {fileID: 0}
+    - attackSpeed: 4
+      damage: 60
+      image: {fileID: 0}
+  - name: Stinger
+    id: 02
+    description: Unlocked at the beginning of the game
+    weaponRarity: 1
+    attackType: 0
+    weaponStatsList:
+    - attackSpeed: 2
+      damage: 60
+      image: {fileID: 0}
+    - attackSpeed: 3
+      damage: 65
+      image: {fileID: 0}
+    - attackSpeed: 4
+      damage: 70
+      image: {fileID: 0}
+  - name: Drill
+    id: 03
+    description: Unlocked at the beginning of the game
     weaponRarity: 0
     attackType: 0
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 3
+      damage: 65
       image: {fileID: 0}
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 3
+      damage: 70
       image: {fileID: 0}
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 4
+      damage: 75
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
+  - name: Chainsaw
+    id: 04
+    description: Special Grand Prix Unlock at Prestige 2 Stage 5
     weaponRarity: 0
     attackType: 0
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 3
+      damage: 65
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
+    - attackSpeed: 4
+      damage: 70
+      image: {fileID: 0}
+    - attackSpeed: 5
+      damage: 75
+      image: {fileID: 0}
+  - name: Rotating Drill
+    id: 05
+    description: Special/Event Offers Grand Prix Unlock at Prestige 2 Stage 10
+    weaponRarity: 2
     attackType: 0
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 4
+      damage: 80
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
+    - attackSpeed: 5
+      damage: 85
+      image: {fileID: 0}
+    - attackSpeed: 6
+      damage: 90
+      image: {fileID: 0}
+  - name: Rotating Chainsaw
+    id: 06
+    description: Special/Event Offers Grand Prix Unlock at Prestige 2 Stage 10
+    weaponRarity: 2
     attackType: 0
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 4
+      damage: 80
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
+    - attackSpeed: 5
+      damage: 85
+      image: {fileID: 0}
+    - attackSpeed: 6
+      damage: 90
+      image: {fileID: 0}
+  - name: Doulbe Blade
+    id: 07
+    description: Special/Event Offers Grand Prix Unlock at Prestige 2 Stage 20
+    weaponRarity: 3
     attackType: 0
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 6
+      damage: 90
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
-    weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 7
+      damage: 95
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
-    weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 8
+      damage: 100
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
+  - name: Rocket
+    id: 07
+    description: Unlocked at the beginning of the game
+    weaponRarity: 1
+    attackType: 1
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 1
+      damage: 40
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
-    weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 2
+      damage: 45
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
-    weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 3
+      damage: 50
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
+  - name: Laser
+    id: 08
+    description: Unlock at Stage 5
     weaponRarity: 0
-    attackType: 0
+    attackType: 1
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 2
+      damage: 45
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
-    weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 3
+      damage: 50
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
-    weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 4
+      damage: 55
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
-    weaponRarity: 0
-    attackType: 0
+  - name: Double Rocket
+    id: 09
+    description: Unlock at Stage 20
+    weaponRarity: 2
+    attackType: 1
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 5
+      damage: 70
       image: {fileID: 0}
-  - name: 
-    id: 
-    description: 
+    - attackSpeed: 6
+      damage: 75
+      image: {fileID: 0}
+    - attackSpeed: 7
+      damage: 80
+      image: {fileID: 0}
+  - name: Minigun
+    id: 10
+    description: Unlocks at Prestige 1
     weaponRarity: 0
-    attackType: 0
+    attackType: 1
     weaponStatsList:
-    - attackSpeed: 0
-      power: 0
-      damage: 0
+    - attackSpeed: 3
+      damage: 55
+      image: {fileID: 0}
+    - attackSpeed: 4
+      damage: 60
+      image: {fileID: 0}
+    - attackSpeed: 5
+      damage: 65
+      image: {fileID: 0}
+  - name: Shotgun
+    id: 11
+    description: Unlocks at Prestige 2
+    weaponRarity: 0
+    attackType: 1
+    weaponStatsList:
+    - attackSpeed: 3
+      damage: 60
+      image: {fileID: 0}
+    - attackSpeed: 4
+      damage: 65
+      image: {fileID: 0}
+    - attackSpeed: 5
+      damage: 70
+      image: {fileID: 0}
+  - name: Molotov Cocktail
+    id: 12
+    description: Special/Event Offers Grand Prix Unlocks at Prestige 5
+    weaponRarity: 2
+    attackType: 1
+    weaponStatsList:
+    - attackSpeed: 5
+      damage: 70
+      image: {fileID: 0}
+    - attackSpeed: 6
+      damage: 75
+      image: {fileID: 0}
+    - attackSpeed: 7
+      damage: 80
+      image: {fileID: 0}
+  - name: Boomerang
+    id: 13
+    description: Special/Event Offers Grand Prix Unlocks at Prestige 1 Stage 20
+    weaponRarity: 3
+    attackType: 1
+    weaponStatsList:
+    - attackSpeed: 5
+      damage: 80
+      image: {fileID: 0}
+    - attackSpeed: 6
+      damage: 85
+      image: {fileID: 0}
+    - attackSpeed: 7
+      damage: 90
+      image: {fileID: 0}
+  - name: Rotating Rocket
+    id: 14
+    description: "Special/Event Offers Grand Prix Unlocks at Prestige 2 Stage 15\t"
+    weaponRarity: 3
+    attackType: 1
+    weaponStatsList:
+    - attackSpeed: 6
+      damage: 80
+      image: {fileID: 0}
+    - attackSpeed: 7
+      damage: 85
+      image: {fileID: 0}
+    - attackSpeed: 8
+      damage: 90
+      image: {fileID: 0}
+  - name: Potato Cannon
+    id: 15
+    description: Special/Event Offers Grand Prix Unlocks at Prestige 10
+    weaponRarity: 2
+    attackType: 1
+    weaponStatsList:
+    - attackSpeed: 5
+      damage: 70
+      image: {fileID: 0}
+    - attackSpeed: 6
+      damage: 75
+      image: {fileID: 0}
+    - attackSpeed: 7
+      damage: 80
       image: {fileID: 0}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b368f332996abb54b9d8701fbe38b18d, type: 3}
+  m_Name: BodyDataListGame
+  m_EditorClassIdentifier: 
+  BodyDatas:
+  - name: Classic
+    id: 01
+    description: something
+    equipmentRarity: 0
+    weaponMounts:
+    - {x: 0, y: 0}
+    weaponStatsList:
+    - health: 500
+      image: {fileID: 0}
+    - health: 680
+      image: {fileID: 0}
+    - health: 900
+      image: {fileID: 0}
+  - name: Sneaky
+    id: 02
+    description: something
+    equipmentRarity: 1
+    weaponMounts:
+    - {x: 0, y: 0}
+    weaponStatsList:
+    - health: 540
+      image: {fileID: 0}
+    - health: 730
+      image: {fileID: 0}
+    - health: 970
+      image: {fileID: 0}
+  - name: Titan
+    id: 03
+    description: something
+    equipmentRarity: 3
+    weaponMounts:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    weaponStatsList:
+    - health: 800
+      image: {fileID: 0}
+    - health: 1050
+      image: {fileID: 0}
+    - health: 1400
+      image: {fileID: 0}
+  - name: Pyramid
+    id: 04
+    description: The Pyramid is unlocked upon reaching Stage 10 Prestige 0.
+    equipmentRarity: 2
+    weaponMounts:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    weaponStatsList:
+    - health: 670
+      image: {fileID: 0}
+    - health: 850
+      image: {fileID: 0}
+    - health: 1000
+      image: {fileID: 0}
