@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WeaponDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WeaponDataListGame.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasMainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasMainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/Gameplay/Equipments/Rocket.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Sprites/Gameplay/Equipments/Rocket.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

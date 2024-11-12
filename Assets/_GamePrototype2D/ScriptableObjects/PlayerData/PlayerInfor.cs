@@ -9,8 +9,6 @@ public class PlayerInfor : ScriptableObject
     public string name;
     public Sprite avatar;
     
-    
-    
     //-- CURRENCY
     public int coin;
     public int gem;
