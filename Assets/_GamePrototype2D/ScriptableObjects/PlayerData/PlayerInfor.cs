@@ -20,7 +20,12 @@ public class PlayerInfor : ScriptableObject
     public float currentEXP;
     public int trophy;
     public Ranking currentRank;
-
+    
+    
+    //--CURRENT VEHICLE
+    public string _bodyID;
+    public List<string> _weaponID;
+    public string _wheelID;
 }
 
 

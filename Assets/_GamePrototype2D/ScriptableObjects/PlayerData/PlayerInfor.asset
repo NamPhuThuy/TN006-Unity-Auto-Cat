@@ -20,3 +20,6 @@ MonoBehaviour:
   currentEXP: 0
   trophy: 0
   currentRank: 0
+  _bodyID: 01
+  _weaponID: []
+  _wheelID: 

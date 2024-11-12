@@ -289,9 +289,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f98b6f928daffe47a58d1e0cd298c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _wheelList: []
+  _currentWheel: {fileID: 0}
   _weaponList: []
-  _body: {fileID: 0}
+  _currentBody: {fileID: 3646855187101267891}
+  _weaponDataListGame: {fileID: 11400000, guid: 93fc14a0f823c7446a3282cf7a0d345b, type: 2}
+  _bodyDataListGame: {fileID: 11400000, guid: 3333f8f5dde79924e818bbc9628b6fc6, type: 2}
+  _wheelDataListGame: {fileID: 11400000, guid: 1a3c05f7726f15547a37150eec495cff, type: 2}
+  _playerInfor: {fileID: 11400000, guid: 8ef59204c3bb095499e37f43d77677ae, type: 2}
 --- !u!1 &7833987027653283629
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4856676003773596528}
   - component: {fileID: 2972199804175437396}
+  - component: {fileID: 3646855187101267891}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -378,6 +383,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3646855187101267891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7833987027653283629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eae25202e6a4cd42938aed552cc2aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8758777959459556827
 GameObject:
   m_ObjectHideFlags: 0

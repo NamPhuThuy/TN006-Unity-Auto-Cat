@@ -6,16 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/Bootstrap.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/GameCanvasManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/SceneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ScriptableBuildPipeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ScriptableBuildPipeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/BodyDataListGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/BodyDataListGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerBodyVehicleList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerBodyVehicleList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,25 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "nam/add__gameplay",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;nam/add__gameplay&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Kryple\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Kryple\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Kryple\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Instance1-Windows\TN006-Auto-Cat.exe" />

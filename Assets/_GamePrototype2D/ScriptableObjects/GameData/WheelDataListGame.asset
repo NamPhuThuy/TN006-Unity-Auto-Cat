@@ -19,7 +19,7 @@ MonoBehaviour:
       is similar to the knob.
     wheelRarity: 1
     health: 200
-    image: {fileID: 0}
+    image: {fileID: 21300000, guid: 7d6efe09c1f5a3a438f2530082b4a3ad, type: 3}
   - name: Knob
     id: 01
     description: Knob is the smallest wheel. It generally has a small health amount

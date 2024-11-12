@@ -20,7 +20,7 @@ public class BodyData
     public EquipmentRarity equipmentRarity;
     
     public List<Vector2> weaponMounts;
-    public List<BodyStats> weaponStatsList;
+    public List<BodyStats> bodyStatsList;
 }
 
 [Serializable]
