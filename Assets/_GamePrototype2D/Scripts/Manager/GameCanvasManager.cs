@@ -75,7 +75,7 @@ public class GameCanvasManager : Pixelplacement.Singleton<GameCanvasManager>, IM
         yield return Yielders.Get(0.02f);
         CanvasList.Add("CanvasExit", CanvasExit);
         CanvasList.Add("CanvasCredits", CanvasCredits);
-        // CanvasList.Add("CanvasGameOver1", CanvasGameOver);
+        CanvasList.Add("CanvasGarage", CanvasGarage);
         CanvasList.Add("CanvasSettings", CanvasSettings);
         CanvasList.Add("CanvasLeaderboard", CanvasLeaderboard);
         CanvasList.Add(DefineValue.CANVAS_SHOP, CanvasShop);
