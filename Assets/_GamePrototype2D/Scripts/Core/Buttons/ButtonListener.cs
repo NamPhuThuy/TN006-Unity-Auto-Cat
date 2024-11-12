@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -49,17 +50,22 @@ public class ButtonListener : MonoBehaviour
         }
         a.SetActive(true);
     }
-    
-    /*public enum TempEnum
-    {
-        OPTIONA,
-        OPTIONB,
-        OPTIONC
-    }
-    */
 
     public void OpenCanvas(string a)
     {
         GameCanvasManager.Instance.OpenCanvas(a);
     }
+
+    public void StartAsHost()
+    {
+        TransferPlayMode m_transfer = GameObject.Find(DefineValue.STR_NETWORK_MANAGER).GetComponent<TransferPlayMode>();
+        m_transfer.userMode = UserMode.HostMode;
+    }
+
+    public void StartAsClient()
+    {
+        TransferPlayMode m_transfer = GameObject.Find(DefineValue.STR_NETWORK_MANAGER).GetComponent<TransferPlayMode>();
+        m_transfer.userMode = UserMode.ClientMode;
+    }
+    
 }

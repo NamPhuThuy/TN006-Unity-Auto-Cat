@@ -18,7 +18,7 @@ public class SceneController : Singleton<SceneController>
     /// <summary>
     /// The actually time a new scene need to be loaded
     /// </summary>
-    [SerializeField] private float _loadingDuration = 0.2f;
+    [SerializeField] private float _loadingDuration = 0.1f;
     
     /// <summary>
     /// The max value range of loading bar

@@ -7,7 +7,7 @@ using UnityEngine.Serialization;
 
 public class WheelDataListGame : ScriptableObject
 {
-	public List<WheelData> WheelData;
+	public List<WheelData> WheelDatas;
 }
 
 [Serializable]
@@ -17,6 +17,12 @@ public class WheelData
 	public string id;
 	public string description;
 	public EquipmentRarity wheelRarity;
+	public List<WheelStats> wheelStatsList;
+}
+
+[Serializable]
+public class WheelStats
+{
 	public int health;
 	public Sprite image;
 }

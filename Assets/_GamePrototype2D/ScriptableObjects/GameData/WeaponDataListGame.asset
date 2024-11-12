@@ -119,22 +119,22 @@ MonoBehaviour:
       damage: 100
       image: {fileID: 0}
   - name: Rocket
-    id: 07
+    id: 08
     description: Unlocked at the beginning of the game
     weaponRarity: 1
     attackType: 1
     weaponStatsList:
     - attackSpeed: 1
       damage: 40
-      image: {fileID: 0}
+      image: {fileID: 21300000, guid: 8790016263653f146b3ef28719af0ad2, type: 3}
     - attackSpeed: 2
       damage: 45
-      image: {fileID: 0}
+      image: {fileID: 21300000, guid: 8790016263653f146b3ef28719af0ad2, type: 3}
     - attackSpeed: 3
       damage: 50
-      image: {fileID: 0}
+      image: {fileID: 21300000, guid: 8790016263653f146b3ef28719af0ad2, type: 3}
   - name: Laser
-    id: 08
+    id: 09
     description: Unlock at Stage 5
     weaponRarity: 0
     attackType: 1
@@ -149,7 +149,7 @@ MonoBehaviour:
       damage: 55
       image: {fileID: 0}
   - name: Double Rocket
-    id: 09
+    id: 10
     description: Unlock at Stage 20
     weaponRarity: 2
     attackType: 1
@@ -164,7 +164,7 @@ MonoBehaviour:
       damage: 80
       image: {fileID: 0}
   - name: Minigun
-    id: 10
+    id: 11
     description: Unlocks at Prestige 1
     weaponRarity: 0
     attackType: 1
@@ -179,7 +179,7 @@ MonoBehaviour:
       damage: 65
       image: {fileID: 0}
   - name: Shotgun
-    id: 11
+    id: 12
     description: Unlocks at Prestige 2
     weaponRarity: 0
     attackType: 1
@@ -194,7 +194,7 @@ MonoBehaviour:
       damage: 70
       image: {fileID: 0}
   - name: Molotov Cocktail
-    id: 12
+    id: 13
     description: Special/Event Offers Grand Prix Unlocks at Prestige 5
     weaponRarity: 2
     attackType: 1
@@ -209,7 +209,7 @@ MonoBehaviour:
       damage: 80
       image: {fileID: 0}
   - name: Boomerang
-    id: 13
+    id: 14
     description: Special/Event Offers Grand Prix Unlocks at Prestige 1 Stage 20
     weaponRarity: 3
     attackType: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
       damage: 90
       image: {fileID: 0}
   - name: Rotating Rocket
-    id: 14
+    id: 15
     description: "Special/Event Offers Grand Prix Unlocks at Prestige 2 Stage 15\t"
     weaponRarity: 3
     attackType: 1
@@ -239,7 +239,7 @@ MonoBehaviour:
       damage: 90
       image: {fileID: 0}
   - name: Potato Cannon
-    id: 15
+    id: 16
     description: Special/Event Offers Grand Prix Unlocks at Prestige 10
     weaponRarity: 2
     attackType: 1

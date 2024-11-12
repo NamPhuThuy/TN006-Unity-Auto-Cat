@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scenes/GamePlay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WeaponDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WeaponDataListGame.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +33,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Helper/HelperViewport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/Vibration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/ClientNetworkTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerStatsIngameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/TransferPlayMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/UI/Canvas/CanvasStartBattle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.8.1/Runtime/Core/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -58,6 +71,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Instance1-Windows\TN006-Auto-Cat.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\Software\Games\TN006-Auto-Cat\Builds\Instance1-Windows" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\Software\Games\TN006-Auto-Cat -debugCodeOptimization" />
@@ -109,6 +130,7 @@
       <workItem from="1730602777183" duration="7217000" />
       <workItem from="1730644154994" duration="65000" />
       <workItem from="1730795409274" duration="631000" />
+      <workItem from="1731306108289" duration="3775000" />
     </task>
     <servers />
   </component>

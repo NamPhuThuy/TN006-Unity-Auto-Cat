@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: New Layer 1
+    uniqueID: 406749731
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2335266001
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 3174467491
+    locked: 0
+  - name: 
+    uniqueID: 3566339475
+    locked: 0
+  - name: Body
+    uniqueID: 2781551777
+    locked: 0
+  - name: Wheel
+    uniqueID: 577893463
+    locked: 0
+  - name: Weapon
+    uniqueID: 2783312893
+    locked: 0

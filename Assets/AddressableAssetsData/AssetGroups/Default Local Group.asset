@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 77bac78de6991094d85882ca2a0d6363
   m_SerializeEntries:
-  - m_GUID: 4528c36a991f0e54493a187a4feaa85f
-    m_Address: MainMenu
+  - m_GUID: d393adc61b9fcc743882dd1b3135044c
+    m_Address: Bootstrap
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -27,13 +27,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1911adcf46157ed41a8023531bebc501
-    m_Address: Buffer
+  - m_GUID: bf12998d157b9664fb725eba82bf676b
+    m_Address: Garage
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d393adc61b9fcc743882dd1b3135044c
-    m_Address: Boostrap
+  - m_GUID: 4528c36a991f0e54493a187a4feaa85f
+    m_Address: MainMenu
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -132,10 +132,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bf12998d157b9664fb725eba82bf676b
-    m_Address: Garage
-  - m_GUID: 9f2ca00917872a24cb27a335b50b6a46
-    m_Address: Assets/_GamePrototype2D/Prefabs/UI/UICanvas/CanvasGameOver 1.prefab
+  - m_GUID: 1911adcf46157ed41a8023531bebc501
+    m_Address: Buffer
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

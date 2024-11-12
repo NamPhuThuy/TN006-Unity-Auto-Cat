@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/_GamePrototype2D/Scenes/Bootstrap.unity
+    guid: d393adc61b9fcc743882dd1b3135044c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 20296ea0fbf3cc24ebb2c94c1d155153, type: 2}
