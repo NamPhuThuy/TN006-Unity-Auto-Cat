@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CanvasGameOver1 : CanvasBase
+public class CanvasGameWin : CanvasBase
 {
     public override void Show(object data = null)
     {

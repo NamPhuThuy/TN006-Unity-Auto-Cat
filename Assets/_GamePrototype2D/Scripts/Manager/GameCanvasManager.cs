@@ -20,8 +20,8 @@ public class GameCanvasManager : Pixelplacement.Singleton<GameCanvasManager>, IM
     [Header("Canvas In Game")] 
     [SerializeField] private CanvasStartBattle CanvasStartBattle;
     [SerializeField] private CanvasHUD CanvasHUD;
-    [SerializeField] private CanvasGameOver CanvasGameOver;
-    
+    [SerializeField] private CanvasGameWin CanvasGameWin;
+    [SerializeField] private CanvasGameLose CanvasGameLose;
     [SerializeField] private CanvasGamePause CanvasGamePause;
     
     [Header("SubCanvas")]
@@ -83,7 +83,8 @@ public class GameCanvasManager : Pixelplacement.Singleton<GameCanvasManager>, IM
         
         //--Canvas InGame
         CanvasList.Add(DefineValue.CANVAS_HUD, CanvasHUD);
-        CanvasList.Add(DefineValue.CANVAS_GAME_OVER, CanvasGameOver);
+        CanvasList.Add(DefineValue.CANVAS_GAME_WIN, CanvasGameWin);
+        CanvasList.Add(DefineValue.CANVAS_GAME_LOSE, CanvasGameLose);
         CanvasList.Add(DefineValue.CANVAS_GAME_PAUSE, CanvasGamePause);
         CanvasList.Add(DefineValue.CANVAS_START_BATTLE, CanvasStartBattle);
         
