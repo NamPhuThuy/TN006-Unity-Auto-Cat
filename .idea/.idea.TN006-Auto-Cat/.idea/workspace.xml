@@ -6,14 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="878ea5f5-86ef-426f-bf91-14082990015c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TN006-Auto-Cat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Prefabs/GamePlay/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/BodyDataListGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/BodyDataListGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WeaponDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WeaponDataListGame.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerBodyVehicleList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerBodyVehicleList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/GameData/WheelDataListGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/ScriptableObjects/PlayerData/PlayerInfor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerEquipmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +34,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/DefineValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Core/Utils/Vibration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/ClientNetworkTransform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/PlayerStatsIngameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/GamePlay/Player/TransferPlayMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/AudioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GamePrototype2D/Scripts/Manager/ControllerVibration.cs" root0="FORCE_HIGHLIGHTING" />
