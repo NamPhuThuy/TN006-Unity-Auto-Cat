@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public static class Helpers
+public static class HelperCals
 {
     public static float Map(float value, float originMin, float originMax, float newMin, float newMax, bool clamp)
     {

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1387942cbe4e8a903d26afaad3618e, type: 3}
+  m_Name: MapSelectionData
+  m_EditorClassIdentifier: 
+  maps:
+  - mapThumbnail: {r: 0.21751513, g: 0.9811321, b: 0.9811321, a: 1}
+    mapName: Cyan
+    mapMat: {fileID: 2100000, guid: 1dc2164eda57a9c43adc4d292d1fa7a2, type: 2}
+  - mapThumbnail: {r: 0.19326274, g: 0.9528302, b: 0.19326274, a: 1}
+    mapName: Green
+    mapMat: {fileID: 2100000, guid: 48b4392c3b974ad40980c12a2aa20a57, type: 2}
+  - mapThumbnail: {r: 1, g: 0.6122866, b: 0.3066038, a: 1}
+    mapName: Orange
+    mapMat: {fileID: 2100000, guid: 262aa8b3a7ad0b44b8c2a4092f74d325, type: 2}
+  - mapThumbnail: {r: 0.990566, g: 0.4906105, b: 0.990566, a: 1}
+    mapName: Pink
+    mapMat: {fileID: 2100000, guid: 23960158b67a4fd419ffb40eb45568a1, type: 2}
+  - mapThumbnail: {r: 1, g: 0.4481132, b: 0.46397203, a: 1}
+    mapName: Red
+    mapMat: {fileID: 2100000, guid: 4a5d693b32c99b64ca71757ed57e19c2, type: 2}
