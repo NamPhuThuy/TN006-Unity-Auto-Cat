@@ -38,7 +38,8 @@ namespace Game
                         PlayerPrefs.SetString("Username", "Player");
                     }
 
-                    SceneManager.LoadSceneAsync("MainMenu");
+                    // SceneManager.LoadSceneAsync("MainMenu");
+                    SceneController.Instance.LoadScene("MainMenu", true, true);
                 }
             }
         }

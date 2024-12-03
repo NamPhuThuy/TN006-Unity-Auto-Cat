@@ -184,7 +184,7 @@ namespace Game
             //Update player data
             await LobbyManager.Instance.UpdatePlayerData(_localLobbyPlayerData.Id, _localLobbyPlayerData.Serialize(), allocationId, connectionData);
             
-            SceneManager.LoadSceneAsync("GamePlay");
+            SceneController.Instance.LoadScene("GamePlay", true, true);
         }
         
         private async Task<bool> JoinRelayServer(string relayJoinCode)

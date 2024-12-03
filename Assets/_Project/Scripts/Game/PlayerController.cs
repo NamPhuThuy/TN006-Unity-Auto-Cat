@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using Game;
-using Game.Enviroment;
 using GameFramework.Network.Movement;
 using Unity.Netcode;
 using UnityEngine;
@@ -88,33 +87,7 @@ namespace Game
             {
                 _playerMovement.ProcessSimulatedPlayerMovement();
             }
-
-            //If the LocalPlayer click the mouse
-            if (IsLocalPlayer && _playerControl.Player.Interact.inProgress)
-            {
-                if (Physics.Raycast(_camTransform.position, _camTransform.forward, out RaycastHit hit, _interactDistance,
-                        _interactLayers))
-                {
-                    if (hit.collider.TryGetComponent<ButtonDoor>(out ButtonDoor buttonDoor))
-                    {
-                        //If we hit a button with Raycast successfully, do the same thing on Server
-                        UseButtonServerRpc();
-                    }
-                }
-            }
         }
 
-        [ServerRpc]
-        private void UseButtonServerRpc()
-        {
-            if (Physics.Raycast(_camTransform.position, _camTransform.forward, out RaycastHit hit, _interactDistance,
-                    _interactLayers))
-            {
-                if (hit.collider.TryGetComponent<ButtonDoor>(out ButtonDoor buttonDoor))
-                {
-                    buttonDoor.Activate();
-                }
-            }
-        }
     }
 }

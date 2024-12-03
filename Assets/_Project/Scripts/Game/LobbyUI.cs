@@ -27,8 +27,8 @@ namespace Game
         {
             if (GameLobbyManager.Instance.IsHost)
             {
-                _leftButton.onClick.AddListener(OnLeftButtonClick);
-                _rightButton.onClick.AddListener(OnRightButtonClick);
+                // _leftButton.onClick.AddListener(OnLeftButtonClick);
+                // _rightButton.onClick.AddListener(OnRightButtonClick);
                 _startButton.onClick.AddListener(OnStartButtonClick);
                 Events.LobbyEvents.OnLobbyReady += OnLobbyReady;
             }
@@ -44,8 +44,8 @@ namespace Game
 
         private void OnDisable()
         {
-            _rightButton.onClick.RemoveAllListeners();
-            _leftButton.onClick.RemoveAllListeners();
+            // _rightButton.onClick.RemoveAllListeners();
+            // _leftButton.onClick.RemoveAllListeners();
             _startButton.onClick.RemoveAllListeners();
             _readyButton.onClick.RemoveAllListeners();
             
@@ -58,8 +58,8 @@ namespace Game
             _lobbyCodeText.text = $"Lobby code: {GameLobbyManager.Instance.GetLobbyCode()}";
             if (!GameLobbyManager.Instance.IsHost)
             {
-                _leftButton.gameObject.SetActive(false);
-                _rightButton.gameObject.SetActive(false);
+                // _leftButton.gameObject.SetActive(false);
+                // _rightButton.gameObject.SetActive(false);
             }
             else
             {

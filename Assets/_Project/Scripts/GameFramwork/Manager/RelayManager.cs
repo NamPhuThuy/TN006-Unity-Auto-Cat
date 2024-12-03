@@ -64,7 +64,7 @@ namespace GameFramwork.Manager
         public async Task<string> CreateRelay(int maxConnection)
         {
             /*
-             - CreateAllocationAsync(maxConnection): makes an asynchronous request to the relay service provider to allocate resources for a new relay connection. The maxConnection parameter is passed to the provider.
+             - CreateAllocationAsync(maxConnection): request relay service provider to allocate resources for a new relay connection. The maxConnection parameter is passed to the provider.
 
             - Allocation allocation: The result of the allocation request. This object contains information about the allocated relay connection, including connection details and an allocation ID.
             */

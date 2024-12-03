@@ -9,7 +9,6 @@ namespace Game
     {
         [SerializeField] private TextMeshProUGUI _playerName;
         [SerializeField] private SpriteRenderer _isReadyIndicator;
-        [SerializeField] private Camera _mainCamera;
         [SerializeField] private Canvas _canvas;
 
 
@@ -20,8 +19,6 @@ namespace Game
         private void Start()
         {
             // _propertyBlock = new MaterialPropertyBlock();
-            _mainCamera = Camera.main;
-            _canvas.worldCamera = _mainCamera;
             _isReadyIndicator.color = Color.red;
             // _playerName.text = _data.GamerTag;
         }

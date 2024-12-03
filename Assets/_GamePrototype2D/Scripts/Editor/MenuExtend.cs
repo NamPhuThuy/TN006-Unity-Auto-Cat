@@ -37,8 +37,6 @@ public class MenuExtend : MonoBehaviour
 #if UNITY_EDITOR
     #region Setup Editor
     [MenuItem(SWITCH_SCENCE_MENU_NAME + "/Bootstrap " + ALT + "1")]
-    // [MenuItem(SWITCH_SCENCE_MENU_NAME + "/Intro &1")]
-    
     static void Boots()
     {
         LoadSceneByName("Bootstrap");
@@ -52,7 +50,14 @@ public class MenuExtend : MonoBehaviour
 
     }
     
-    [MenuItem(SWITCH_SCENCE_MENU_NAME + "/GamePlay " + ALT + "3")]
+    [MenuItem(SWITCH_SCENCE_MENU_NAME + "/Lobby " + ALT + "3")]
+    static void Lobby()
+    {
+        LoadSceneByName("Lobby");
+
+    }
+    
+    [MenuItem(SWITCH_SCENCE_MENU_NAME + "/GamePlay " + ALT + "4")]
     static void Gameplay()
     {
         LoadSceneByName("GamePlay");

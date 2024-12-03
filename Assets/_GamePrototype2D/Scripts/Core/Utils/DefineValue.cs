@@ -14,7 +14,7 @@ public class DefineValue : PropertyAttribute
     public const string CANVAS_SHOP = "CanvasShop";
     public const string CANVAS_GARAGE = "CanvasGarage";
     public const string CANVAS_MAINMENU = "CanvasMainMenu";
-    
+    public const string CANVAS_JOIN_ROOM = "CanvasJoinRoom";
     
     
     public const string CANVAS_START_BATTLE = "CanvasStartBattle";
