@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_GamePrototype2D/Scenes/Bootstrap.unity
     guid: d393adc61b9fcc743882dd1b3135044c
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project/Scenes/Bootstrap.unity
     guid: b1beb71b1af792c49ac8e1d2ddd99e57
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project/Scenes/GamePlay2.unity
     guid: 6c289155fb5170648ae30b79fd9970b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project/Scenes/Loading.unity
     guid: c96f5e6adae8e3a48a650f399dd6110e
   - enabled: 0

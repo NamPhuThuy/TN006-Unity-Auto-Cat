@@ -42,7 +42,8 @@ public class CanvasMainMenu : CanvasBase
     private async void Start()
     {
         _hostButton.gameObject.SetActive(true);
-        _joinButton.gameObject.SetActive(false);
+        _joinButton.gameObject.SetActive(true);
+        _joinScreen.SetActive(false);
         
         //GameLobbyManger gameobject is created after this line
         if (await GameLobbyManager.Instance.HasActiveLobbies())
